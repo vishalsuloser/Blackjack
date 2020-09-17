@@ -1,0 +1,50 @@
+body{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center!important;
+}
+.container-5{
+    margin-top: 10px;
+    width: 75%;
+    border: 1rem solid rgb(10, 97, 10);
+    padding: 20px;
+    background: rgba(214, 214, 214, 0.671);
+}
+.flex-blackjack-row-3{
+    display: grid;
+    place-items: center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    display: flex;
+    border: 2px solid  rgba(2, 37, 2, 0.61);
+    justify-content: space-around;
+    background: rgb(13, 75, 5);
+    color: #ffffff;
+}
+.flex-blackjack-row-2{
+    border: 2px solid  rgb(10, 97, 10);
+}
+.flex-blackjack-row-1 div {
+    height: 400px;
+    padding: 10px;
+    flex: 1;
+    overflow-y:auto;
+    border: 2px solid  rgb(10, 97, 10);
+    text-align: center!important;
+    flex-wrap: wrap;
+}
+.flex-blackjack-row-1 img{
+    width: 25%;
+    /* height: 150px; */
+    padding: 10px;
+}
+table, th, td{
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid rgb(37, 53, 37);
+    background: rgb(187, 186, 186);
+    text-align: center;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container-5">
+        <h2>BlackJack</h2>
+        <h3><span id="blackjack-result">Let's play</span></h3>
+        <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h2>You: <span id="your-blackjack-result">0</span></h2>
+            </div>
+            <div class="border" style="padding: 0; flex:none;"></div>
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn btn-warning" id="blackjack-stand-btn">Stand</button>
+                <button class="btn btn-primary m-2" id="blackjack-hit-btn">Hit</button>
+                <button class="btn btn-danger" id="blackjack-deal-btn">Deal</button>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table class="border-1">
+                <tr>
+                    <th>You</th>
+                    <th>Dealer</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td style="background: rgb(205, 228, 208);"><span id="wins">0</span></td>
+                    <td style="background: rgb(202, 175, 180);"><span id="losses">0</span></td>
+                    <td style="background: rgb(238, 225, 205);"><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
